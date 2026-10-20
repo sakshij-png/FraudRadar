@@ -1,6 +1,6 @@
 # 🛡️ FraudRadar — AI-Powered Transaction Fraud Detection
 
-FraudRadar is a machine learning web application that analyzes financial transaction details and predicts whether a transaction may be fraudulent. Built with Python and Streamlit, it provides a simple, interactive interface for demonstrating transaction fraud classification.
+FraudRadar is a machine learning web application that analyzes financial transaction details and predicts whether a transaction may be fraudulent. Built with **Python and Streamlit**, it provides a simple, interactive interface for demonstrating transaction fraud classification.
 
 ## ✨ Features
 
@@ -21,43 +21,45 @@ FraudRadar is a machine learning web application that analyzes financial transac
 
 ## ⚙️ How It Works
 
-1.Input: The user enters transaction details, including transaction type, amount, and account balances.
-2.Feature Engineering: The application calculates balance differences for the sender and receiver.
-3.Preprocessing: The trained pipeline processes numerical and categorical features.
-4.Prediction: The classification model evaluates the transaction.
-5.Result: The application displays whether the transaction is predicted to be potentially fraudulent or legitimate.
+1. **Input:** The user enters transaction details, including transaction type, amount, and account balances.
+2. **Feature Engineering:** The application calculates balance differences for the sender and receiver.
+3. **Preprocessing:** The trained pipeline processes numerical and categorical features.
+4. **Prediction:** The classification model evaluates the transaction.
+5. **Result:** The application displays whether the transaction is predicted to be potentially fraudulent or legitimate.
 
-**Features Used**
+### Features Used
 
--Transaction type
--Transaction amount
--Original sender balance
--New sender balance
--Original receiver balance
--New receiver balance
--Sender balance difference
+- Transaction type
+- Transaction amount
+- Original sender balance
+- New sender balance
+- Original receiver balance
+- New receiver balance
+- Sender balance difference
+- Receiver balance difference
 
-Receiver balance difference
 ## 🚀 Run Locally
 
-**1. Clone the repository**
+### 1. Clone the repository
 
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 cd FraudRadar
 ```
 
-**2. Install dependencies**
+### 2. Install dependencies
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-**3. Start the application**
+### 3. Start the application
 
 ```bash
 python -m streamlit run fraud_detection.py
 ```
+
+Open the local URL displayed in your terminal to use FraudRadar.
 
 ## 📁 Project Structure
 
@@ -65,24 +67,24 @@ python -m streamlit run fraud_detection.py
 FraudRadar/
 ├── fraud_detection.py
 ├── fraud_detection_pipeline.pkl
-└── analysis_model.ipynb
+├── analysis_model.ipynb
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
 
-**## 🎯 Project Objective**
+## 🎯 Project Objective
 
 This project demonstrates the application of machine learning to a financial fraud detection use case. It combines model development, feature engineering, preprocessing, prediction, and web application deployment into a single workflow.
 
-**🔮 Future Enhancements**
+## 🔮 Future Enhancements
 
--Add transaction risk scores and confidence indicators.
--Develop a dashboard for transaction monitoring and analytics.
--Evaluate additional classification algorithms.
--Add model evaluation metrics and explainability tools.
--Improve input validation and user guidance.
--Explore batch prediction for multiple transactions.
+- Add transaction risk scores and confidence indicators.
+- Develop a dashboard for transaction monitoring and analytics.
+- Evaluate additional classification algorithms.
+- Add model evaluation metrics and explainability tools.
+- Improve input validation and user guidance.
+- Explore batch prediction for multiple transactions.
 
 ## ⚠️ Disclaimer
 
@@ -90,7 +92,9 @@ FraudRadar is an educational machine learning project. Its predictions are estim
 
 ## 👩‍💻 Author
 
-Sakshi Joshi
+**Sakshi Joshi**
+
+*Project: FraudRadar — AI-Powered Transaction Intelligence*
 
 Developed as a machine learning and financial fraud detection project.
-**Project:** FraudRadar — AI-Powered Transaction Intelligence
+
