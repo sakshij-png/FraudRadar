@@ -43,7 +43,7 @@ FraudRadar is a machine learning web application that analyzes financial transac
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone (https://github.com/sakshij-png/FraudRadar.git)
 cd FraudRadar
 ```
 
